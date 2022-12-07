@@ -4,8 +4,9 @@
     "slug": "MealsApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/udemy.png",
     "userInterfaceStyle": "light",
+    "backgroundColor": "#24180f",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
