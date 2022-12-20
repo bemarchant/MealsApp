@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet } from "react-native";
+import { StyleSheet, Button } from "react-native";
 import MealsOverviewScreen from "./screens/MealsOverviewScreen";
 import CategoriesScreen from "./screens/CategoriesScreen";
 import MealDetailScreen from "./screens/MealDetailScreen";
@@ -31,12 +31,6 @@ export default function App() {
           <Stack.Screen
             name="MealsOverviewScreen"
             component={MealsOverviewScreen}
-            // option={({ route, navigation }) => {
-            //   const catId = route.params.categoryId;
-            //   return {
-            //     title: catId,
-            //   };
-            // }}
           />
 
           <Stack.Screen name="MealDetailScreen" component={MealDetailScreen} />
